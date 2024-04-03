@@ -16,9 +16,9 @@ img {
   flex-direction: column;
 }
 
-div {
-  border: 10px pink solid;
-}
+/* div {
+  border: 10px pink solid; */
+
 
 h1 , a {   /* 중복 제거2 */
   /* 한줄 표기 */
@@ -52,3 +52,55 @@ a {
    display: inline; 
 }
 */
+
+/* 미디어 쿼리 테스트 중 */
+div {
+  border: 10px solid green;
+  font-size: 60px;
+}
+
+@media(min-width: 800px){
+  div {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 800px){
+  body{
+    background: url(../images/coding.jpg)
+     no-repeat fixed;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 900px){
+  body{
+    background: url(../images/flower.jpg)
+     no-repeat fixed;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1000px){
+  body{
+    background: url(../images/sky.jpg)
+     no-repeat fixed;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1100px){
+  body{
+    background: url(../images/bridge.jpg)
+     no-repeat fixed;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  body{
+    background: url(../images/lavar1.jpg)
+     no-repeat fixed;
+    background-size: cover;
+  }
+}
